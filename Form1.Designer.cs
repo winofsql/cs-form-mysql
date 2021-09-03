@@ -43,6 +43,7 @@ namespace cs_form_framework_mysql_datagridview
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 21;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(896, 454);
             this.dataGridView1.TabIndex = 0;
             // 
@@ -52,7 +53,7 @@ namespace cs_form_framework_mysql_datagridview
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(208, 31);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "読み込み";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -64,7 +65,8 @@ namespace cs_form_framework_mysql_datagridview
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "MySQL 社員マスタ一覧";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
