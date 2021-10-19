@@ -1,5 +1,5 @@
 ﻿
-namespace cs_form_framework_mysql_datagridview
+namespace cs_form_mysql_datagridview
 {
     partial class Form1
     {
