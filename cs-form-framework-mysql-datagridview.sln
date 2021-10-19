@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs-form-framework-mysql-datagridview", "cs-form-framework-mysql-datagridview.csproj", "{1F56FAAB-E8C1-4F33-87A7-EF125FDC1168}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs-form-mysql-datagridview", "cs-form-mysql-datagridview.csproj", "{1F56FAAB-E8C1-4F33-87A7-EF125FDC1168}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
