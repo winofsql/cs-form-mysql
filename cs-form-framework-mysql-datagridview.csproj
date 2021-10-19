@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1F56FAAB-E8C1-4F33-87A7-EF125FDC1168}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>cs_form_framework_mysql_datagridview</RootNamespace>
-    <AssemblyName>cs-form-framework-mysql-datagridview</AssemblyName>
+    <RootNamespace>cs_form_mysql_datagridview</RootNamespace>
+    <AssemblyName>cs-form-mysql-datagridview</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
